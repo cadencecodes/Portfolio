@@ -745,6 +745,13 @@ hr {
     margin: 0;
 }
 
+/* === WEB SCREENSHOT GRID === */
+.web-image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
 /* === MOBILE === */
 @media (max-width: 768px) {
     body {
@@ -785,6 +792,10 @@ hr {
 
     .image-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .web-image-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .section-header {
