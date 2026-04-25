@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cadence Ross</title>
+        <link rel="icon" type="image/svg+xml" href="./favicon.svg">
         <link rel="stylesheet" href="./style.css">
     </head>
 
@@ -12,26 +14,100 @@
     <a href="./index.html">Home</a>
 </div>
 
-<hr>
-
     <body>
-        <div class="CenterImage">
-            <img src="https://i.imgur.com/yW7DUqZ.png" width="250.5" height="326.5" class="Image">
+        <div class="hero">
+            <h1 class="hero-name">Cadence Ross</h1>
+            <p class="hero-tagline">UX Designer &middot; Social Media &middot; Web Design</p>
         </div>
-        <p class="Text">Hello! My name is Cadence Ross, and I am a current student at the University of Central Florida. I received my Associates Degree at Eastern Florida State College, and will graduate with my bachelors degree in Digital Media-Web Design (May 2026). My favorite things are traveling, food, and experiencing new things.</p>
-        <p class="Text">In the future, I would love to be a UX designer. I want to make an impact on people's lives by not only making products and interfaces functional, but also exciting to use! With that, I hope to change the digital world for the better.</p>
+
+        <div class="about-layout reveal">
+            <div class="CenterImage">
+                <img src="https://i.imgur.com/yW7DUqZ.png" width="250.5" height="326.5" class="Image">
+            </div>
+            <div class="about-text">
+                <p class="Text">Hi, I'm Cadence Ross — a Digital Media student at the University of Central Florida, graduating with a degree in Digital Media Web Design in May 2026. I also hold an Associate's Degree from Eastern Florida State College. Outside of school, I love photography, animals, and soaking up new experiences wherever I can.</p>
+                <p class="Text">I'm passionate about UX design and social media marketing, and the space where the two meet. My goal is to create digital experiences that are not just functional, but genuinely exciting to use.</p>
+                <div class="find-me">
+                    <p class="find-me-label">Where to find me</p>
+                    <div class="find-me-links">
+                        <a href="https://www.linkedin.com/in/cadence-r-6a7a8b280/" target="_blank" class="btn-sm">LinkedIn</a>
+                        <a href="https://www.instagram.com/_cadenceross/" target="_blank" class="btn-sm">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="currently-section reveal">
+            <p class="section-label">Currently</p>
+            <div class="currently-items">
+                <div class="currently-item">
+                    <span class="currently-dot"></span>
+                    <p>Finishing my final semester at UCF</p>
+                </div>
+                <div class="currently-item">
+                    <span class="currently-dot"></span>
+                    <p>Marketing for K9s Place &amp; Tier One Service Dog Foundation</p>
+                </div>
+                <div class="currently-item">
+                    <span class="currently-dot"></span>
+                    <p>Open to opportunities in UX design and social media</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-section reveal">
+            <p class="section-label">Skills &amp; Tools</p>
+            <div class="skills-grid">
+                <span class="skill-pill coral">Figma</span>
+                <span class="skill-pill coral">Canva</span>
+                <span class="skill-pill blue">TikTok</span>
+                <span class="skill-pill blue">Instagram</span>
+                <span class="skill-pill coral">HTML</span>
+                <span class="skill-pill coral">CSS</span>
+            </div>
+        </div>
+
+        <div class="wave-divider">
+            <svg viewBox="0 0 1200 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0,20 C150,5 350,35 600,20 C850,5 1050,35 1200,20" stroke="#4EC9E8" stroke-width="2" fill="none" stroke-opacity="0.2"/>
+            </svg>
+        </div>
+
+        <div class="featured-section reveal">
+            <p class="section-label">Featured Project</p>
+            <div class="featured-layout">
+                <div class="image-wrapper featured-img-wrap">
+                    <img src="https://imgur.com/qTcFikV.png" alt="Pawmate Login Screen" class="featured-img">
+                </div>
+                <div class="featured-info">
+                    <h3>Pawmate</h3>
+                    <p>A social app that helps users find their perfect dog breed. It includes breed guides, community features, and a high-fidelity Figma prototype.</p>
+                    <a href="./projects.html" class="featured-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="featured-section reveal">
+            <p class="section-label">Featured Experience</p>
+            <div class="featured-layout">
+                <div class="image-wrapper featured-img-wrap">
+                    <img src="https://imgur.com/DvLUb1i.jpg" alt="K9s Place TikTok" class="featured-img">
+                </div>
+                <div class="featured-info">
+                    <h3>K9s Place</h3>
+                    <p>Content creation and social media strategy for a family-owned dog training, boarding, and daycare facility. Focused on growing their TikTok through fun, on-brand videos.</p>
+                    <div class="featured-stats">
+                        <span class="stat-badge">22.5K views</span>
+                        <span class="stat-badge">316 followers</span>
+                    </div>
+                    <a href="./experience.html" class="featured-link">View Experience →</a>
+                </div>
+            </div>
+        </div>
+
+
+
     </body>
 
-<hr>
-
-    <h1>
-        Digital Media Artists
-    </h1>
-
-<div class="CenterButton">
-    <a href="https://www.jzcreativespace.com/my-work"target="blank" id="Button">JZ</a>
-    <a href="https://willbryantstudio.com"target="blank" id="Button">Will Bryant</a>
-    <a href="https://www.jzcreativespace.com/work"target="blank" id="Button">Hey Studio</a>
-</div>
-
+<script src="./script.js"></script>
 </html>
